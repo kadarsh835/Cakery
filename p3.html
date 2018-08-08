@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Cakery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+	a {
+	color: #f44283;
+	}
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+	#main2{
+	background-image: url(bb.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	
+	#main2 p{
+	text-align: left;
+	text-indent: 150px;
+	padding: 25px 25px 25px 25px;
+	font-family: Verdana, Georgia;
+	color:#000000;
+	font-size:18px;
+	}
+	#main2 img{
+	opacity: 2;
+	}
+	
+	#main2 h1 {
+	text-decoration: underline;
+	text-align: center;
+	color: #0f0004;
+	}
+	#header{
+	margin: 0px;
+	height: 250px;
+	padding: 25px;
+	background-color: #f7567e ;
+	}
+	#header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    	
+	@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #f7567e !important;
+	margin: 0px;
+	
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+  }
+     </style>
+</head>
+<body>
+<div id="header">
+<img src="l5.png">
+</div>
+ <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand active" href="#">The Cakery</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Birthday Cakes</a></li>
+          <li><a href="#">Wedding Cakes</a></li>
+          <li><a href="#">Special Cakes</a></li>
+		  <li><a href="#">Pastries</a></li>
+		  <li><a href="#">Truffles</a></li>
+		  <li><a href="#">Cupcakes</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Recipes<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Bittersweet Chocolate Frosting</a></li>
+          <li><a href="#">Blueberry Pecan Scones</a></li>
+          <li><a href="#">Carrot Cake Cupcake</a></li>
+		  <li><a href="#">Flourless Chocolate Cookie Recipe</a></li>
+		  <li><a href="#">Devil's Food Cake</a></li>
+		  <li><a href="#">Brown Butter Blueberry Muffins</a></li>
+        </ul>
+      <li class="active"><a href="#">FAQ</a></li>
+	  <li><a href="#">Contact Us</a></li>
+    </ul>
+	 <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign in</a></li>
+		<li><a href="#"><span class="	glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+  </div>
+</nav>
+  
+
+<div id="main2">
+<p><h1 style="font-size:50px;">FAQ</h1><br><br><br>
+<p style="font-size:18px;"><b>1.</b>&nbspI don’t see what I want on your website.  Can you make me a custom/wedding cake? <br>
+>> Yes, custom orders are possible.  Please email us at contact theCakery.tc@gmail.com and tell us what you want in as much detail as possible. 
+ Please include the date of the event and the number of guests in the subject line.<br><br><br>
+
+
+2.&nbsp What if I need a cake for tomorrow? 
+>>We may be able to fill your order from the daily selection of cakes in our store.  Please call one of our retail stores to inquire.
+
+
+3. &nbsp Do you make sheet cakes?<br>
+>>Yes.  Please email us at contact theCakery.tc@gmail.com and tell us what you want in as much detail as possible. 
+<br> Please include the date of the event and the number of guests in the subject line.<br><br><br>
+
+4. &nbsp How many people do your cakes feed? <br>
+>>Our 6” cake feeds 6-8 people.
+ Our 8” cakes feed 12-14 people.  
+ For information on our other size cakes, please email us at contact theCakery.tc@gmail.com and tell us what you want in as much detail as possible. 
+ Please include the date of the event and the number of guests in the subject line.<br><br><br>
+
+
+5. &nbsp Do you make edible photo cakes?<br>
+>> Yes.  Please email us at contact theCakery.tc@gmail.com and include an attachment with the image you would like on the cake. 
+ Please tell us in as much detail as possible what you would like and add the date of the event and number of guests in your subject line.<br><br><br>
+
+
+6.&nbsp Do you make logo cakes for corporate events? <br>
+>> Yes we do! Please email us at contact theCakery.tc@gmail.com and include an attachment with the image you would like on the cake.  
+Please tell us in as much detail as possible what you would like and add the date of the event and number of guests in your subject line.<br><br><br>
+
+
+7. &nbsp How far in advance do I need to order my cake? <br>
+>> House cakes can be ordered with 48 hours advance notice.  Custom cakes are often scheduled weeks in advance because we only can accommodate a limited number each week. 
+ The sooner you contact us, the better.<br><br><br>
+
+
+8.&nbsp  Do we need to keep the cake refrigerated or can it sit out at room temperature? <br>
+>> Our cakes should be refrigerated.  We recommend taking them out 1-1 1/2 hours before serving for better flavor.<br><br><br>
+
+
+9. &nbsp Do you deliver?  We do a limited number of deliveries in the City of San Francisco. <br>
+ Please email us at contact@noevalleybakery.com to inquire about a delivery. 
+Please tell us in as much detail as possible what you would like and add the date of the event in your subject line.<br><br><br>
+
+
+10.&nbsp Do you ship?<br>
+>> No, unfortunately we do not ship our products.<br><br><br>
+
+
+11.&nbsp Do you have gluten-free products?<br>
+>> We have a few items that are made without flour, but we do not have a gluten free facility.  Please contact one of our stores for availability.<br><br><br>
+
+
+12.&nbsp Do you have vegan products?<br>
+>>  No, we do not make vegan products at this time.<br><br><br>
+
+
+13.&nbsp Do you accommodate food allergies? <br>
+>> Unfortunately, we are unable to accommodate food allergies. 
+ Many of our products are made in facilities with nuts and we have a lot of gluten in our atmosphere because we are a bread bakery.<br><br><br>
+
+
+14. &nbsp Will you make me a cake from my own recipe?<br>
+>> No, unfortunately we are unable to make custom recipes.<br><br><br>
+
+
+15. &nbsp What methods of payment do you accept? <br>
+>>  Our online and retail stores accept Visa, MasterCard, American Express and Discover cards.<br><br><br>
+
+
+16.&nbsp Where can I pick up my cakes?<br>
+>> You can pick up your cakes at one of our retail stores. You will be asked to indicate which retail store you prefer when you place your order.<br><br><br>
+
+
+17. &nbsp Can I order breads and cookies and pastries online? <br>
+>> Not yet!  We are starting with cakes and cupcakes and we are planning on adding other products ASAP.<br><br><br>
+
+</p>
+</div>
+<footer class="container-fluid text-center" style="padding: 0px 0px 0px 0px;">
+<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Helpful links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Menu</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Recipes</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Gallery</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Address</h5>
+					<p> D-29/13, immediate left of UCO Bank And ATM, Bypass Road, Vijay Khand, Ujariyaon, Vijay Khand 2, Gomti Nagar, Lucknow, Uttar Pradesh, India.<p>
+					
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Find Us Here!</h5>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="#">The Cakery</a></u> is a Registered ISO of India and is titled as 'Best Bakery Store' in Indian sub-continent. </p>
+					<p class="h6">&copy All right Reversed.<a href="#" target="_blank">The Cakery</a></p>
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+  
+</footer>
+
+</body>
+</html>
