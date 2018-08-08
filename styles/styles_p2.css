@@ -42,16 +42,16 @@
 	color: #0f0004;
 }
 #header{
-	margin: 0px;
-	height: 250px;
+	width:100%;
 	padding: 25px;
-	background-color: #f7567e ;
-}
-#header img{
-    display: block;
-    margin-left: auto;
+	background: linear-gradient(to  left, #e80931, #efe1e3);
+	}
+	#header img{
+    display: inline-block;
     margin-right: auto;
-}
+	height: 200px;
+
+	}
 
 section.section-title {
     text-align: center;
@@ -59,13 +59,8 @@ section.section-title {
     margin-bottom: 50px;
     text-transform: uppercase;
 }
- 
- /*
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-section {
-    padding: 60px 0;
-}
-*/
+
+
 
 #footer {
     background: #f7567e !important;
