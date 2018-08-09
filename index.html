@@ -163,7 +163,8 @@
 					<p> D-29/13, immediate left of UCO Bank And ATM, Bypass Road, Vijay Khand, Ujariyaon, Vijay Khand 2, Gomti Nagar, Lucknow, Uttar Pradesh, India.<p>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Find Us Here!</h5>	
+					<h5>Find Us Here!</h5>
+					<div id="map" style="width:400px;height:400px;background:yellow"></div>
 				</div>
 			</div>
 			<div class="row">
@@ -186,5 +187,17 @@
 			</div>	
 		</div>
 	</section>
+	<script>
+		function myMap() {
+			var mapOptions = {
+				center: new google.maps.LatLng(26.862338, 81.0199613),
+				zoom: 10,
+				mapTypeId: google.maps.MapTypeId.HYBRID
+			}
+			var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		}
+	</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_OtpXBICXfwDnEYEAfcITppr1DatwNEI&callback=myMap"></script>
 </body>
 </html>
