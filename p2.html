@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <title>THE CAKERY</title>
   <meta charset="utf-8">
@@ -124,7 +123,8 @@
 					<p> D-29/13, immediate left of UCO Bank And ATM, Bypass Road, Vijay Khand, Ujariyaon, Vijay Khand 2, Gomti Nagar, Lucknow, Uttar Pradesh, India.<p>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Find Us Here!</h5>	
+					<h5>Find Us Here!</h5>
+					<div id="map" style="width:320px;height:320px;background:yellow"></div>
 				</div>
 			</div>
 			<div class="row">
@@ -147,5 +147,25 @@
 			</div>	
 		</div>
 	</section>
+	<script>
+
+      function initMap() {
+        var myLatLng = {lat: 26.862338, lng: 81.0199613};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'THE CAKERY'
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_OtpXBICXfwDnEYEAfcITppr1DatwNEI&callback=initMap">
+    </script>
 </body>
 </html>
