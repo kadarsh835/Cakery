@@ -9,7 +9,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="styles/styles_p2.css">
+  <link rel="stylesheet" href="styles/styles_contact.css">
+  
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 
 
@@ -57,9 +61,9 @@
 					<li><a href="pr1.html">Devil's Food Cake</a></li>
 					<li><a href="pr4.html">Brown Butter Blueberry Muffins</a></li>
 				</ul>
-				<li><a href="p3.html">FAQ</a></li>
-				<li class="active"><a href="p2.html">About Us</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="p2.html">About Us</a></li>
+				<li class="active"><a href="contact.html">Contact Us</a></li>
 			</li>
 		</ul>
 		<ul class="nav navbar-nav navbar-right">
@@ -70,46 +74,81 @@
 		</div>
 	</div>
 	</nav>
-	<div id="main1">
-	<div class="container" id="main2">
-		<div class="row">
-			<p><h1 style="font-size:50px;">Our Story</h1><br><br><br></p>
-			<div class="col-md-4">
-				<img src="img/owners.JPG" style="display: block; height: 100%; margin-right:15px; padding: 0px 15px 5px 15px;" class="img-responsive">
-			</div>
-			<div class="col-md-8 div_bg" style="position:relative">
-				<p style="font-size:18px;">In 1995, as a husband and wife team, Rajat and Nisha Singh set out to recapture a rarity: the neighborhood bakery, where everything was made on premises.
-					At the time, a whole generation of customers were purchasing machine-made and not-so-fresh baked goods from supermarkets and coffee shops, the owners said.
-					Rajat Singh was a trained baker, while Nisha Singh worked as a managing partner for a restaurant company. 
-					Upon leaving college in 1984, Rajat joined his first large-scale bakery, Cake Delights, where he learned how to produce large, consistent quantities of virtually
-					every type of baked good. During this time, he discovered his true vocation as a bread baker and went to Nandan Pastry Shop, in Delhi to further his knowledge
-					and experience.This assignment provided experience in designing a bakery from the blueprints up, managing staffing and setting up the facility procedures and 
-					processes that would serve him
-					well in future positions. It was here also, where he met his future wife, Nisha Singh, who was working for Nandan Pastry Shop as a managing partner in the retail
-					division.
-	
-					Upon meeting his commitment to Nandan Pastry Shop, Rajat and Nisha eagerly returned to their hometown -Lucknow. Taking a position as bakery manager at 
-					Chestnut in Lucknow,
-					Rajat had the opportunity to put his knowledge to the test in a small bakery concept. It was here that he also began making what would become his signature
- 					specialty breads. In 1995, Rajat and Nisha decided to take the plunge and open their own neighborhood bakery in "THE CAKERY". It is here that 
- 					they realized their passion for revitalizing the neighborhood, artisanal bakery. The Noe Valley Bakery & Bread Company is a full-line bakery serving hand-made
- 					breads—with a specialty in fruit breads— pastries, cakes, truffles and cookies. Rajat is an active member of the Bread Bakers Guild of India, Food Runners, and has
- 					instructed at the Chestnut, in Mumbai. “We were fortunate to set up shop in the charming little community called 'THE CAKERY'.
+	<div class="jumbotron jumbotron-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h1 class="h1">
+                    Contact us- <small>Feel free to contact us</small></h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+	 <div class="col-md-4">
+           <div id="map" style="width:375px;height: 294px;background:yellow; margin-left:0px; border-radius:25px;"></div>
+        </div>
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="compliments">Compliments</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="comments">Comments</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12"> 
+                        <button onclick="myFunction()" class="btn btnContactUs pull-right">Send Message</button>
+						<button type="reset" class="btn btnContactUs pull-right">Reset the form!</button>
+                    </div>
+					<script>
+						function myFunction()
+						{
+							alert("Thanks for your valuable feedback.");
+						}
+					</script>
+                </div>
+                </form>
+            </div>
+        </div>
 
-					From noon on that first day we opened, all our baked goods were sold out. 25 years later, we still delight many of those same customers and have watched the 
-					littlest and most loyal customers become adults. Customers anxiously wait each morning for that hot, fragrant, fresh loaf of bread, handmade muffins, croissants,
- 					cookies, or a custom-made birthday cake.” “Because CAKERY is very sophisticated and inventive when it comes to their parties, we have expanded our offerings
- 					of cake designs for special occasions." <a href=""> THE BAKING MAGZINE </a>
-				</p>
-			</div>
-		</div>
-	</div>
-	</div>
+    </div>
+</div>
+
 	<br>
 	<section id="footer">
 		<div class="container">
 			<div class="row text-center text-xs-center text-sm-left text-md-left">
-				<div class="col-xs-12 col-sm-4 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-6">
 					<h5>Helpful links</h5>
 					<ul class="list-unstyled quick-links">
 						<li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
@@ -118,14 +157,11 @@
 						<li><a href="p3.html"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-6">
 					<h5>Address</h5>
 					<p> D-29/13, immediate left of UCO Bank And ATM, Bypass Road, Vijay Khand, Ujariyaon, Gomti Nagar, Lucknow - 226010, Uttar Pradesh, India.<p>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Find Us Here!</h5>
-					<div id="map" style="width:350px;height: 200px;background:yellow; margin-left:50px; border-radius:25px;"></div>
-				</div>
+				
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
@@ -169,3 +205,4 @@
     </script>
 </body>
 </html>
+
