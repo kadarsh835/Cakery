@@ -1,252 +1,296 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
 
-<head>
-    <title>THE CAKERY</title>
-    <link rel="icon" href="img/logo_without_bg.png">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/styles_index.css">
-</head>
+    <head>
+        <title>THE CAKERY</title>
+        <link rel="icon" href="img/logo_without_bg.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="styles/base.css" />
+    </head>
 
-<body>
-    <div class="container" id="header">
-        <div class="row">
-            <div class="col-md-2">
-                <img src="img/logo_without_bg.png"></img>
-            </div>
-            <div class="col-md-10">
-                <h1>Welcome to The Cakery! India's No. 1 Online Pastry Store!</h1>
-            </div>
-        </div>
-    </div>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Birthday Cakes</a></li>
-                            <li><a href="#">Wedding Cakes</a></li>
-                            <li><a href="#">Special Cakes</a></li>
-                            <li><a href="#">Pastries</a></li>
-                            <li><a href="#">Truffles</a></li>
-                            <li><a href="#">Cupcakes</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Recipes<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="pr2.html">Bittersweet Chocolate Frosting</a></li>
-                            <li><a href="pr5.html">Blueberry Pecan Scones</a></li>
-                            <li><a href="pr3.html">Carrot Cake Cupcake</a></li>
-                            <li><a href="pr6.html">Flourless Chocolate Cookie Recipe</a></li>
-                            <li><a href="pr1.html">Devil's Food Cake</a></li>
-                            <li><a href="pr4.html">Brown Butter Blueberry Muffins</a></li>
-                        </ul>
-                        <li><a href="p3.html">FAQ</a></li>
-                        <li><a href="p2.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign in</a></li>
-                    <li><a href="#"><span class="	glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
-
-
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="img/top_banner.png" alt="Image">
-                <div class="carousel-caption">
-                    <h3>All types of cakes only</h3>
-                    <p>at THE CAKERY</p>
-                </div>
-            </div>
-            <div class="item">
-                <img src="img/banner_2.jpg" alt="Image">
-                <div class="carousel-caption">
-                    <h3>All types of pastries only</h3>
-                    <p>at THE CAKERY</p>
-                </div>
-            </div>
-            <div class="item">
-                <img src="img/lindor.jpg" alt="Image">
-                <div class="carousel-caption">
-                    <h3>All types of truffles only</h3>
-                    <p>at THE CAKERY</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-
-    <div class="container text-center">
-        <h2><b><u>ORDER YOUR FAVORITES ONLINE!!</u></b></h2><br>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="container1">
-					<img src="img/i2.jpg" alt="Avatar" class="image" style="width:100%">
-					<div class="middle">
-						<div class="text">
-							<a href="pr2.html"><h2 style="color:red; font-weight:bold">Birthday Cakes</h2></a>
-						</div>
-					</div>
-				</div>
-			</div>
-            <div class="col-md-4">
-                <div class="container1">
-					<img src="img/i5.jpg" alt="Avatar" class="image" style="width:100%">
-					<div class="middle">
-						<div class="text">
-							<a href="pr2.html"><h2 style="color:red; font-weight:bold">Wedding Cakes</h2></a>
-						</div>
-					</div>
-				</div>
-			</div>
-            <div class="col-md-4">
-                <div class="container1">
-					<img src="img/i4.jpg" alt="Avatar" class="image" style="width:100%">
-					<div class="middle">
-						<div class="text">
-							<a href="pr2.html"><h2 style="color:red; font-weight:bold">Special Occasions</h2></a>
-						</div>
-					</div>
-				</div>
-			</div>
-            <div class="col-md-4">
-                <div class="container1">
-					<img src="img/i1.jpg" alt="Avatar" class="image" style="width:100%">
-					<div class="middle">
-						<div class="text">
-							<a href="pr2.html"><h2 style="color:red; font-weight:bold">Cupcakes</h2></a>
-						</div>
-					</div>
-				</div>
-			</div>
-            <div class="col-md-4">
-                <div class="container1">
-					<img src="img/i3.jpg" alt="Avatar" class="image" style="width:100%">
-					<div class="middle">
-						<div class="text">
-							<a href="pr2.html"><h2 style="color:red; font-weight:bold">Pastries</h2></a>
-						</div>
-					</div>
-				</div>
-			</div>
-            <div class="col-md-4">
-                <div class="container1">
-					<img src="img/i6.jpg" alt="Avatar" class="image" style="width:100%">
-					<div class="middle">
-						<div class="text">
-							<a href="pr2.html"><h2 style="color:red; font-weight:bold">Truffles</h2></a>
-						</div>
-					</div>
-				</div>
-			</div>
-        </div>
-    </div>
-    <br>
-    <section id="footer">
-        <div class="container">
-            <div class="row text-center text-xs-center text-sm-left text-md-left">
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    <h5>Helpful links</h5>
-                    <ul class="list-unstyled quick-links">
-                        <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
-                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Menu</a></li>
-                        <li><a href="p4.html"><i class="fa fa-angle-double-right"></i>Recipes</a></li>
-                        <li><a href="p3.html"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    <h5>Address</h5>
-                    <p> D-29/13, immediate left of UCO Bank And ATM, Bypass Road, Vijay Khand, Ujariyaon, Gomti Nagar, Lucknow - 226010, Uttar Pradesh, India.<p>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    <h5>Find Us Here!</h5>
-                    <div id="map" style="width:350;height:200px;background:yellow; margin-left:50px; border-radius:25px;"></div>
-                </div>
-            </div>
+    <body>
+        <div class="container" id="header">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-                    <ul class="list-unstyled list-inline social text-center">
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                <div class="col-md-2"><img src="img/logo_without_bg.png"></img></div>
+                <div class="col-md-10">
+                    <h1>Welcome to The Cakery ! India's No. 1 Online Pastry Store!</h1>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Birthday Cakes</a></li>
+                                <li><a href="#">Wedding Cakes</a></li>
+                                <li><a href="#">Special Cakes</a></li>
+                                <li><a href="#">Pastries</a></li>
+                                <li><a href="#">Truffles</a></li>
+                                <li><a href="#">Cupcakes</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Recipes<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="pr2.html">Bittersweet Chocolate Frosting</a></li>
+                                <li><a href="pr5.html">Blueberry Pecan Scones</a></li>
+                                <li><a href="pr3.html">Carrot Cake Cupcake</a></li>
+                                <li><a href="pr6.html">Flourless Chocolate Cookie Recipe</a></li>
+                                <li><a href="pr1.html">Devil's Food Cake</a></li>
+                                <li><a href="pr4.html">Brown Butter Blueberry Muffins</a></li>
+                            </ul>
+                            <li><a href="p3.html">FAQ</a></li>
+                            <li><a href="p2.html">About Us</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign in</a></li>
+                        <li><a href="#"><span class="	glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-                    <p><u><a href="#">The Cakery</a></u> is a Registered ISO of India and is titled as the 'Best Bakery Store' in Indian sub-continent. </p>
-                    <p class="h6">&copy All right Reversed.<a href="#" target="_blank">The Cakery 2018</a></p>
-                </div>
-                </hr>
-            </div>
+        </nav>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            < !-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                < !-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active"><img src="img/top_banner.png" alt="Image">
+                            <div class="carousel-caption">
+                                <h3>All types of cakes only</h3>
+                                <p>at THE CAKERY</p>
+                            </div>
+                        </div>
+                        <div class="item"><img src="img/banner_2.jpg" alt="Image">
+                            <div class="carousel-caption">
+                                <h3>All types of pastries only</h3>
+                                <p>at THE CAKERY</p>
+                            </div>
+                        </div>
+                        <div class="item"><img src="img/lindor.jpg" alt="Image">
+                            <div class="carousel-caption">
+                                <h3>All types of truffles only</h3>
+                                <p>at THE CAKERY</p>
+                            </div>
+                        </div>
+                    </div>
+                    < !-- Left and right controls --><a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>
         </div>
-    </section>
-    <script>
-        function initMap() {
-            var myLatLng = {
-                lat: 26.862338,
-                lng: 81.0199613
-            };
+        <div class="container text-center">
+            <h2><b><u>ORDER YOUR FAVORITES ONLINE ! !</u></b></h2><br><br>
+            <div class="row">
+                <div class="content">
+                    <div class="grid"><a class="grid__item" href="#preview-1">
+                            <div class="box">
+                                <div class="box__shadow"></div><img class="box__img" src="img/i2.jpg" alt="Some image" />
+                                <h3 class="box__title"><span class="box__title-inner" data-hover="memo">memo</span></h3>
+                                <h4 class="box__text"><span class="box__text-inner">Starts 499</span></h4>
+                                <div class="box__deco">&#10014;
+                                </div>
+                                <p class="box__content">"Sometimes we go surfing when it's stormy weather"</p>
+                            </div>
+                        </a><a class="grid__item" href="#preview-2">
+                            <div class="box">
+                                <div class="box__shadow"></div><img class="box__img" src="img/i5.jpg" alt="Some image" />
+                                <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="Gun">Gun</span></h3>
+                                <h4 class="box__text box__text--bottom"><span class="box__text-inner box__text-inner--rotated1">Rain</span></h4>
+                                <div class="box__deco box__deco--top">&#10115;
+                                </div>
+                            </div>
+                        </a><a class="grid__item" href="#preview-3">
+                            <div class="box">
+                                <div class="box__shadow"></div><img class="box__img" src="img/i4.jpg" alt="Some image" />
+                                <h3 class="box__title"><span class="box__title-inner" data-hover="West">West</span></h3>
+                                <h4 class="box__text box__text--topcloser"><span class="box__text-inner">Green</span></h4>
+                                <div class="box__deco">&#10032;
+                                </div>
+                            </div>
+                        </a><a class="grid__item" href="#preview-4">
+                            <div class="box">
+                                <div class="box__shadow"></div><img class="box__img" src="img/i1.jpg" alt="Some image" />
+                                <h3 class="box__title"><span class="box__title-inner" data-hover="Catch">Catch</span></h3>
+                                <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Fire</span></h4>
+                            </div>
+                        </a><a class="grid__item" href="#preview-5">
+                            <div class="box">
+                                <div class="box__shadow"></div><img class="box__img" src="img/i3.jpg" alt="Some image" />
+                                <h3 class="box__title"><span class="box__title-inner" data-hover="Lim">Lim</span></h3>
+                                <h4 class="box__text box__text--bottomcloser"><span class="box__text-inner">Breed</span></h4>
+                            </div>
+                        </a><a class="grid__item" href="#preview-6">
+                            <div class="box">
+                                <div class="box__shadow"></div><img class="box__img" src="img/i6.jpg" alt="Some image" />
+                                <h3 class="box__title"><span class="box__title-inner" data-hover="Hard">Hard</span></h3>
+                                <h4 class="box__text"><span class="box__text-inner">Fast</span></h4>
+                                <p class="box__content">"Love stronger, stranger! Love stronger."</p>
+                            </div>
+                        </a></div>
+                </div>
+                <div class="overlay">
+                    <div class="overlay__reveal"></div>
+                    <div class="overlay__item" id="preview-1">
+                        <div class="box">
+                            <div class="box__shadow"></div><img class="box__img box__img--original" src="img/i2.jpg" alt="Some image" />
+                            <h3 class="box__title"><span class="box__title-inner">memo</span></h3>
+                            <h4 class="box__text"><span class="box__text-inner">Starts 499</span></h4>
+                        </div>
+                        <p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+                    </div>
+                    <div class="overlay__item" id="preview-2">
+                        <div class="box">
+                            <div class="box__shadow"></div><img class="box__img box__img--original" src="img/i5.jpg" alt="Some image" />
+                            <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">Gun</span></h3>
+                            <h4 class="box__text box__text--bottom"><span class="box__text-inner box__text-inner--rotated1">Rain</span></h4>
+                            <div class="box__deco box__deco--top">&#10115;
+                            </div>
+                        </div>
+                        <p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+                    </div>
+                    <div class="overlay__item" id="preview-3">
+                        <div class="box">
+                            <div class="box__shadow"></div><img class="box__img box__img--original" src="img/i4.jpg" alt="Some image" />
+                            <h3 class="box__title"><span class="box__title-inner">West</span></h3>
+                            <h4 class="box__text box__text--topcloser"><span class="box__text-inner">Green</span></h4>
+                            <div class="box__deco">&#10032;
 
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 17,
-                center: myLatLng
-            });
+                            </div>
+                        </div>
+                        <p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+                    </div>
+                    <div class="overlay__item" id="preview-4">
+                        <div class="box">
+                            <div class="box__shadow"></div><img class="box__img box__img--original" src="img/i1.jpg" alt="Some image" />
+                            <h3 class="box__title"><span class="box__title-inner">Catch</span></h3>
+                            <h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Fire</span></h4>
+                        </div>
+                        <p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+                    </div>
+                    <div class="overlay__item" id="preview-5">
+                        <div class="box">
+                            <div class="box__shadow"></div><img class="box__img box__img--original" src="img/i3.jpg" alt="Some image" />
+                            <h3 class="box__title"><span class="box__title-inner">Lim</span></h3>
+                            <h4 class="box__text box__text--bottomcloser"><span class="box__text-inner">Breed</span></h4>
+                        </div>
+                        <p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+                    </div>
+                    <div class="overlay__item" id="preview-6">
+                        <div class="box">
+                            <div class="box__shadow"></div><img class="box__img box__img--original" src="img/i6.jpg" alt="Some image" />
+                            <h3 class="box__title"><span class="box__title-inner">Hard</span></h3>
+                            <h4 class="box__text"><span class="box__text-inner">Fast</span></h4>
+                        </div>
+                        <p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+                    </div><button class="overlay__close" style="opacity: 0.5;"><svg class="icon1 icon--cross">
+                            <use xlink:href="#icon-cross"></use>
+                        </svg></button>
+                </div>
+                </main>
+                <script src="js/imagesloaded.pkgd.min.js">
+                </script>
+                <script src="js/TweenMax.min.js">
+                </script>
+                <script src="js/demo.js">
+                </script><a href="#0" class="close cd-img-replace">Close</a>
+            </div>
+        </div><br>
+        <section id="footer">
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Helpful links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Menu</a></li>
+                            <li><a href="p4.html"><i class="fa fa-angle-double-right"></i>Recipes</a></li>
+                            <li><a href="p3.html"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Address</h5>
+                        <p>D-29/13,
+                            immediate left of UCO Bank And ATM,
+                            Bypass Road,
+                            Vijay Khand,
+                            Ujariyaon,
+                            Gomti Nagar,
+                            Lucknow - 226010,
+                            Uttar Pradesh,
+                            India.<p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Find Us Here !</h5>
+                        <div id="map" style="width:350;height:200px;background:yellow; margin-left:50px; border-radius:25px;"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                        <p><u><a href="#">The Cakery</a></u>is a Registered ISO of India and is titled as the 'Best Bakery Store'in Indian sub-continent. </p>
+                        <p class="h6">&copy All right Reversed.<a href="#" target="_blank">The Cakery 2018</a></p>
+                    </div>
+                    </hr>
+                </div>
+            </div>
+        </section>
+        <script>
+            function initMap() {
+                var myLatLng = {
+                    lat: 26.862338,
+                    lng: 81.0199613
+                }
 
-            var marker = new google.maps.Marker({
-                position: myLatLng,
-                map: map,
-                title: 'THE CAKERY'
-            });
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_OtpXBICXfwDnEYEAfcITppr1DatwNEI&callback=initMap">
-    </script>
+                ;
 
-</body>
+                var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 17,
+                        center: myLatLng
+                    }
 
-</html>
+                );
+
+                var marker = new google.maps.Marker({
+                        position: myLatLng,
+                        map: map,
+                        title: 'THE CAKERY'
+                    }
+
+                );
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_OtpXBICXfwDnEYEAfcITppr1DatwNEI&callback=initMap">
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+        <script src="js/main.js">
+        </script>
+    </body>
+
+    </html>
